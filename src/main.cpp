@@ -19,5 +19,5 @@ void loop() {
     Serial.print(resistance);
     Serial.println(" ohms");
   }
-  delay(1000); // Wait for a second before the next reading
+  delay(100); // Wait for a second before the next reading
 }
